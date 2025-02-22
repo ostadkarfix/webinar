@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="fa">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ثبت‌نام وبینار</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <div class="container">
+        <div class="banner">
+            <img src="teacher.jpg" alt="مدرس وبینار">
+            <div class="overlay">
+                <h1>وبینار آموزش تعمیرات موبایل</h1>
+                <p>سه جلسه آموزش رایگان به همراه</p>
+                <p class="price">جشنواره و مطالب کوچینگ</p>
+                <p class="gift">سه ماهه</p>
+            </div>
+        </div>
+
+        <form id="signupForm" action="https://formspree.io/f/xdkajlav" method="POST">
+            <label for="name">نام و نام خانوادگی <span>(ضروری)</span></label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="phone">موبایل <span>(ضروری)</span></label>
+            <input type="tel" id="phone" name="phone" required>
+            <button type="submit">ثبت نام در وبینار</button>
+        </form>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
